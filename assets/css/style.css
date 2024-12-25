@@ -35,7 +35,7 @@ a {
   top: -28px;
 }
 .header {
-  background: #c4a85b;
+  background: hsl(0, 0%, 100%);
 }
 .header .body {
   display: flex;
