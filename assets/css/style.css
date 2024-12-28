@@ -468,3 +468,17 @@ a {
   height: 50px;
   background: var(--primary-color);
 }
+/* fu2 */
+.fuatures-2nd {
+  margin-top: 70px;
+}
+.fuatures-2nd .body {
+  flex-direction: row-reverse;
+}
+.fuatures-2nd .content {
+  width: 49%;
+}
+.fuatures-2nd .images img {
+  width: 470px;
+  height: 440px;
+}
