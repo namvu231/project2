@@ -427,3 +427,44 @@ a {
   font-style: italic;
   line-height: 1.54;
 }
+/* features */
+.fuatures {
+  margin-top: 135px;
+  padding: 65px 0;
+  background: #fff;
+}
+.fuatures .body {
+  display: flex;
+  justify-content: space-between;
+}
+.fuatures .images {
+  display: flex;
+  gap: 30px;
+}
+.fuatures .images img {
+  width: 270px;
+  height: 404px;
+  object-fit: cover;
+  border-radius: 16px;
+}
+.fuatures .lower {
+  margin-top: 34px;
+}
+.fuatures .content {
+  width: 41%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.fuatures .desc {
+  margin-top: 16px;
+  color: #5f5b53;
+  font-size: 1.6rem;
+  line-height: 1.75;
+}
+.fuatures .cta-btn {
+  margin-top: 32px;
+  width: 137px;
+  height: 50px;
+  background: var(--primary-color);
+}
